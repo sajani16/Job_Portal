@@ -4,7 +4,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-blue-900 text-white">
+    <header className="bg-[#0B1F3A] text-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -30,7 +30,7 @@ const Header = () => {
           <div className="hidden md:block">
             <a
               href="/register"
-              className="bg-white text-blue-900 px-5 py-1.5 rounded font-medium hover:bg-gray-200"
+              className="bg-white text-[#0B1F3A] px-5 py-1.5 rounded font-medium hover:bg-gray-200"
             >
               Register
             </a>
