@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "frontend"
-        CONTAINER_NAME = "frontend-container"
+        IMAGE_NAME = "job-portal"
+        CONTAINER_NAME = "jobportal-container"
     }
 
     triggers {
