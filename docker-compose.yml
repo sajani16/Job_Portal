@@ -2,6 +2,6 @@ version: "3.9"
 
 services:
   frontend:
-    build: ./frontend
+    build: ./client
     ports:
       - "5000:80"
