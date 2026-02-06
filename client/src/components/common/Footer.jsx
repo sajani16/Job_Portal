@@ -68,7 +68,7 @@ const Footer = () => {
           <h2 className="text-xl font-bold mb-4">Contact Us</h2>
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
-              <MapPin size={18} /> Baneshwor, Kathmandu, Nepal
+              <MapPin size={18} /> Purano Baneshwor, Kathmandu, Nepal
             </li>
             <li className="flex items-center gap-2">
               <Phone size={18} /> +977-981234567
